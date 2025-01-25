@@ -5,6 +5,8 @@
 
 - Este projeto é uma API desenvolvida para gerenciar transações financeiras. Ela permite realizar operações de cadastro, listagem, exclusão e obtenção de estatísticas sobre transações. A API foi construída utilizando Spring Boot e Spring Data JPA para persistência de dados, utilizando H2 database com banco de dados em memória.
 
+- ## Esse README fornece uma visão geral da aplicação feita por mim , como testar cada endpoint no Postman e como rodar os testes unitários.
+
 ## 🚀 Endpoints Disponíveis
 # 
 ### **1. Cadastrar Transação**
@@ -147,8 +149,6 @@ public EstatisticaDTO obterEstatisticas() {
 ```
 - Com essa alteração, em vez de Infinity, os valores para mínimo e máximo serão retornados como 0.0 ou o valor padrão que você definir.
 Alternativa com valores padrão:
-
-## Esse README fornece uma visão geral da aplicação feita por mim , como testar cada endpoint no Postman e como rodar os testes unitários.
 # 
 ## 💻 Tecnologias Utilizadas
 
